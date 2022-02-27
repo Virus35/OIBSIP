@@ -1,0 +1,65 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  html{
+      font-size: 100%;
+  }
+  
+  body {
+    font-family: "Cookie", cursive;
+    font-family: "Great Vibes", cursive;
+    font-family: "Lora", serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: #3f3f3f;
+    display: grid;
+    place-items: center;
+  }
+  
+form {
+    background-color: gray;
+    padding: 5rem;
+    margin: 10px auto;
+    text-align: center;
+    -webkit-box-shadow: 0px 10px 6px -6px rgba(160, 140, 140, 0.863);
+    -moz-box-shadow: 0px 10px 6px -6px rgba(160, 140, 140, 0.863);
+    box-shadow: 0px 5px 6px -6px rgba(160, 140, 140, 0.863);
+  }
+  
+  #main label {
+    font-size: 3rem;
+  }
+  
+ .main #temp-main {
+    border: none;
+    padding: 1rem;
+    height: 3rem;
+    width: 10rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .main #diff {
+    height: 3rem;
+    border: none;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    vertical-align: top;
+    margin-left: 0.3rem;
+  }
+  
+  .main [type="submit"] {
+    height: 3.5rem;
+    margin: 1rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+  }
+  .main #result {
+    font-size: 3.5rem;
+  }
